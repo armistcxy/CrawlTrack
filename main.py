@@ -44,6 +44,9 @@ async def main():
         ("more than words", "羊文学"),
         ("glimpse of us", "Joji"),
         ("Sacred Play Secret Place", " Matryoshka"),
+        ("Shape of you", "Ed Sherran"),
+        ("Bad Guy", "Billie Elish"),
+        ("You are everywhere", "young captain"),
     ]
     async with async_playwright() as playwright:
         await run(playwright, track_infos)
